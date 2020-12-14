@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+}
+body{
+    overflow: hidden;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 21, 34);
+    overflow: hidden;
+}
+.window-container{
+    width: 1024px;
+    height: 576px;
+    background-image: url('/imagesV3/mainbackground.png');
+    -webkit-box-shadow: 0px 12px 17px -6px rgba(5, 5, 5, 0.62); 
+    box-shadow: 0px 12px 17px -6px rgba(0,0,0,0.62);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+.window-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.icon-symbols{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbols{
+    width: 60px;
+    margin: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.symbols:hover{
+    width: 80px;
+}
+.bg-container-window{
+    width: 807px;
+    height: 456px;
+    background-image: url('./imagesV3/iMacWindow.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.6s ease;
+    position: absolute;
+    overflow-y: hidden;
+}
+#info-window h1{
+    text-align: center;
+    margin: 10px;
+}
+#info-window{
+    text-align: center;
+}
+#projects-window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.close-btn-container{
+    width: 807px;
+    display: flex;
+}
+.close-btn{
+    margin-left: 10px;
+    border: none;
+    background:none;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.windowClose{
+    transform: translateY(130%);
+    opacity: 0;
+}
+.project-card{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(39, 95, 168);
+    -webkit-box-shadow: 0px 12px 17px -6px rgba(5, 5, 5, 0.62); 
+    box-shadow: 0px 12px 17px -6px rgba(0,0,0,0.62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s ease;
+    margin: 15px;
+}
+.projects-title{
+    margin: 30px;
+}
+.project-card img{
+    width: 185px;
+}
+.product-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 125px;
+}
+.projects-cards-container a{
+    text-decoration: none;
+    color: white;
+}
+.project-card:hover{
+    transform: scale(1.05);
+}
+.projects-cards-container{
+    display: flex;
+    width: 807px;
+    justify-content: center;
+    align-items: center;
+    height: 456px;
+}
+#resume{
+    height: 400px;
+}
+.about-p{
+    width: 500px;
+    margin: 60px;
+}
