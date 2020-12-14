@@ -96,7 +96,7 @@ body{
     opacity: 0;
 }
 .project-card{
-    width: 200px;
+    width: 180px;
     height: 250px;
     background-color: rgb(39, 95, 168);
     -webkit-box-shadow: 0px 12px 17px -6px rgba(5, 5, 5, 0.62); 
@@ -106,13 +106,13 @@ body{
     align-items: center;
     flex-direction: column;
     transition: 0.3s ease;
-    margin: 15px;
+    margin: 5px;
 }
 .projects-title{
     margin: 30px;
 }
 .project-card img{
-    width: 185px;
+    width: 170px;
 }
 .product-img-div{
     display: flex;
@@ -125,6 +125,7 @@ body{
     align-items: center;
     text-align: center;
     height: 125px;
+    font-size: 14px;
 }
 .projects-cards-container a{
     text-decoration: none;
@@ -139,6 +140,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 456px;
+    flex-wrap: wrap;
 }
 #resume{
     height: 400px;
